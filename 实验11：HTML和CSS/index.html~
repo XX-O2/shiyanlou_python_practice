@@ -1,0 +1,6 @@
+<!DOCTYPE html>
+<legend>表单示例</legend>
+<form action="" method="POST" id="form1">
+
+	<input type="text" autofocus="autofocus" required name="auto" placeholder="必填项测试">
+	<input type="email" placeholder="">
