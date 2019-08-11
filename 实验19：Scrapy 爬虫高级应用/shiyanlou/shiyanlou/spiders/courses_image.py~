@@ -1,0 +1,11 @@
+# -*- coding: utf-8 -*-
+import scrapy
+
+
+class CoursesImageSpider(scrapy.Spider):
+    name = 'courses_image'
+    allowed_domains = ['shiyanlou.com/courses']
+    start_urls = ['http://shiyanlou.com/courses/']
+
+    def parse(self, response):
+        pass
